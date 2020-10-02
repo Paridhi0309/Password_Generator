@@ -5,6 +5,7 @@ import random
 #HOME FUNCTION
 def home(request):
 	return render(request,'generator/home.html')
+#About Function
 
 def about(request):
 	return render(request,'generator/about.html')
